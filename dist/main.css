@@ -1,0 +1,21 @@
+body {
+  width: 70%;
+  margin: 0 auto; }
+
+h1 {
+  color: green; }
+
+h2 {
+  font-size: 12px;
+  color: blue;
+  font-style: italic; }
+
+.test1, .test2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 1px solid green;
+  background: aqua; }
+
+.test2 {
+  box-shadow: 5px 5px 5px gray;
+  background: maroon; }

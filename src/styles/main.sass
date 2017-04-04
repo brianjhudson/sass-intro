@@ -1,0 +1,25 @@
+@import './_partial.sass'
+
+$primary-color: green
+
+@mixin shadow($len: 5px)
+   box-shadow: $len $len $len gray
+
+h1
+   color: $primary-color
+h2
+   font-size: 12px
+   color: blue
+   font-style: italic
+
+.test1
+   text-transform: uppercase
+   text-decoration: underline
+   border: 1px solid green
+   background: aqua
+
+.test2
+   @extend .test1
+   @include shadow()
+   background: maroon
+
